@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    flex-basis: 100px;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+label[for="firstName"]:after,
+label[for="lastName"]:after,
+label[for="address1"]:after,
+label[for="city"]:after,
+label[for="state"]:after,
+label[for="zipCode"]:after,
+label[for="country"]:after,
+label[for="email"]:after,
+label[for="donationAmount"]:after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+select {
+    height: 36px;
+}
+
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+.checkbox-group1 {
+    flex-basis: 100px;
+    width: 20%;
+    text-align: left;
+    padding-right: 10px;
+    font-weight: bold;
+
+}
+
+.btn-reset,
+.btn-continue {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.btn-continue,
+.btn-reset {
+    background-color: #f0f0f0;
+    color: #333;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.end {
+
+    font-size: 0.9em;
+    color: #666;
+    text-align: left;
+    padding-top: 15px;
+
+}
