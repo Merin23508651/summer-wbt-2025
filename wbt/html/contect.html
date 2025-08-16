@@ -12,16 +12,15 @@
 </head>
 
 <body>
+    <script src="../data/script.js"></script>
     <h3> <a href="../index.html">Home</a>
         <a href="Education.html">Education</a>
-
         <a href="Project.html">Projects</a>
-
         <a href="Experience.html">Experience</a>
-
     </h3>
 
-    <form method="Get" class="contact-form">
+    <form id="contactForm" class="contact-form">
+        <h3 class="contact">Contact Form</h3>
         <div class="form-group">
             <label for="firstName">First Name</label>
             <input type="text" id="firstName" required>
@@ -33,43 +32,40 @@
         </div>
 
         <div class="form-group">
-            <label for="E-mail">Email</label>
-            <input type="email" id="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
         </div>
 
         <div class="form-section">Reason for Contacting:</div>
         <div class="radio-group">
-
-            <input type="radio" name="Contact" id="thesis" required>Thesis<br>
-
-            <input type="radio" name="Contact" id="project">Project<br>
-
-            <input type="radio" name="Contact" id="meeting">Meeting<br>
-
+            <input type="radio" name="Contact" id="Thesis" required>Thesis<br>
+            <input type="radio" name="Contact" id="Project">Project<br>
+            <input type="radio" name="Contact" id="Meeting">Meeting<br>
         </div>
 
         Services:<br>
-        <select required>
+        <select id="service" required>
             <option value="">Select a service</option>
             <option value="Graphics Design">Graphics Design</option>
             <option value="UI/UX Desgin">UI/UX Desgin</option>
+            <option value="micro controller project">Microcontroller project</option>
         </select>
         <br>
 
         Your Position in your company:
-        <select required>
+        <select id="position" required>
             <option value="">Select a position</option>
-            <option value="ceo">CEO</option>
+            <option value="CEO">CEO</option>
             <option value="HR">HR</option>
-            <option value="employer">Employer</option>
+            <option value="Manager">Manager</option>
+            <option value="Employer">Employer</option>
         </select>
 
         <br>
 
         <input type="submit" value="Submit" class="submit-btn">
     </form>
-    <div class="position2">
-    </div>
+    <div class="position2"></div>
     <footer>
         <div class="footerContainer">
             <div class="socialIcons">
@@ -79,11 +75,11 @@
                 <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-
         <div class="footerBottom">
             <h4>Copyright &copy;2025 Designed by Merin</h4>
         </div>
     </footer>
+
 </body>
 
 </html>
