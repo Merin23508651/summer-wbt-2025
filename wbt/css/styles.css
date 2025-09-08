@@ -302,6 +302,12 @@ img:hover {
     align-items: center;
 }
 
+.form-group1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
 label {
     flex-basis: 100px;
     width: 20%;
@@ -411,4 +417,8 @@ footer {
 .designer {
     font-weight: bold;
     color: whitesmoke;
+}
+
+.error {
+    color: red;
 }

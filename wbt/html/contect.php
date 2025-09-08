@@ -13,7 +13,6 @@
 
 <body>
     <?php
-// Initialize variables and error messages
 $firstName = $lastName = $email = $contactReason = $service = $position = "";
 $firstNameErr = $lastNameErr = $emailErr = $contactReasonErr = $serviceErr = $positionErr = "";
 
