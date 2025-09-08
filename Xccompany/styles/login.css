@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 120px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    flex: 1;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 250px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 135px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group .error {
+    color: #FF0000;
+    font-size: 0.9em;
+    margin-left: 15px;
+}
+
+.form-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 135px;
+}
+
+.form-buttons input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forgot-link {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
