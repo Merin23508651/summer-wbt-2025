@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.user-info {
+    text-align: right;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user-info a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #FF0000;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    color: #007bff;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h1 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 120px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.form-group input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-group .error {
+    color: #FF0000;
+    font-size: 0.9em;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.form-group input[type="submit"] {
+    margin-left: 135px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
