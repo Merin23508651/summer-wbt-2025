@@ -14,7 +14,7 @@
             <div class="nav-links">
                 <a href="public_home.php">Home</a>
                 <a href="login.php">Login</a>
-                <a href="registration.php">Registration</a>
+                <a href="registration.php">Registrations</a>
             </div>
         </div>
     </header>

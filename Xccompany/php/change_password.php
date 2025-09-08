@@ -3,9 +3,6 @@
 <head>
     <title>Change Password</title>
     <link rel="stylesheet" type="text/css" href="../styles/change_password.css">
-    <style>
-        .error {color: #FF0000;}
-    </style>
 </head>
 <body>
     <?php

@@ -11,7 +11,7 @@
                 <img src="../picture/logo.png" alt="Company Logo" class="logo">
                 <span>Company</span>
             </div>
-            <span class="user-info">Logged in as Bob | <a href="login.php">Logout</a></span>
+            <span class="user-info">Logged in as| <a href="login.php">Logout</a></span>
         </div>
     </header>
     
