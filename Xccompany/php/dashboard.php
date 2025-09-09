@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+  <head>
     <title>Dashboard</title>
     <link rel="stylesheet" type="text/css" href="../styles/dashboard.css">
-    </head>
-<body>
+  </head>
+  <body>
     <header>
         <div class="navbar">
             <div class="company">
@@ -38,5 +38,5 @@
     <footer>
         <p>Copyright © 2017</p>
     </footer>
-</body>
+ </body>
 </html>
