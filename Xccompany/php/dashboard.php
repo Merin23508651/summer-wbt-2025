@@ -16,7 +16,6 @@
             </div>
         </div>
     </header>
-    
     <div class="container">
         <aside class="sidebar">
             <h3>Account</h3>
@@ -29,12 +28,10 @@
                 <li><a href="login.php">Logout</a></li>
             </ul>
         </aside>
-        
         <main class="content">
             <h1>Welcome</h1>
         </main>
     </div>
-    
     <footer>
         <p>Copyright © 2017</p>
     </footer>
