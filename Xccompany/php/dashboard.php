@@ -3,7 +3,7 @@
 <head>
     <title>Dashboard</title>
     <link rel="stylesheet" type="text/css" href="../styles/dashboard.css">
-</head>
+    </head>
 <body>
     <header>
         <div class="navbar">
