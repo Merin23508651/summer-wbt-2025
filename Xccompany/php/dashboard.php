@@ -7,10 +7,10 @@
   <body>
     <header>
         <div class="navbar">
-            <div class="company">
+            <div> class="company">
                 <img src="../picture/logo.png" alt="Company Logo" class="logo">
-                <span>Company</span>
-            </div>
+                <span>Company</span></div
+            
             <div class="user-info">
                 Logged in as | <a href="login.php">Logout</a>
             </div>
